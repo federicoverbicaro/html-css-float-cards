@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* titolo dell'header */
+.titolo{
+    color: #e73170;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* contenitore supremo  */
+
+.contenitore-supremo{
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+
+/* contenitore paragrafo */
+.paragrafo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* contenitore carte */
+
+.contenitore-carte{
+    width: 350px;
+    height: 100px;
+    margin-right:40px;
+     float: left; 
+     background-color: black; 
+}
+
+/* contenitore immagini */
+.immagine{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px;
+   
+}
+/* contenitore testo */
+
+.text{
+    display: inline-block;
+    color: white;
+    line-height: 30px;
+}
+
+a{
+    font-size: 20px;
+   color:#53b3db ;
+}
+
+.img1{
+    background-image: url('../img/male1.png');
+}
