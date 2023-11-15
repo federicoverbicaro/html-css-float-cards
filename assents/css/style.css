@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* titolo dell'header */
@@ -19,8 +19,13 @@ body{
 .contenitore-supremo{
     width: 80%;
     margin: 0 auto;
-    border: 3px solid red;
+    margin-top: 40px;
 }
+
+.contenitore2{
+    margin-top: 60px;
+}
+
 .clearfix::after{
 content: "";
 display: table;
@@ -38,7 +43,7 @@ clear: both;
 .contenitore-carte{
     width: 350px;
     height: 100px;
-    margin-right:40px;
+    margin-left: calc(10% / 3);
      float: left; 
      background-color: black; 
 }
@@ -50,7 +55,7 @@ clear: both;
     float: left;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 90px;
+    background-size: 100px;
    
 }
 /* contenitore testo */
@@ -59,13 +64,31 @@ clear: both;
     display: inline-block;
     color: white;
     line-height: 30px;
+    margin: 6px 5px auto;
 }
 
 a{
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 17px;
    color:#53b3db ;
 }
 
+/* immagini di sfondo di ogni carta  */
 .img1{
     background-image: url('../img/male1.png');
+}
+.img2{
+    background-image: url('../img/female1.png');
+}
+.img3{
+    background-image: url('../img/male2.png');
+}
+.img4{
+    background-image: url('../img/female2.png');
+}
+.img5{
+    background-image: url('../img/male3.png');
+}
+.img6{
+    background-image: url('../img/female3.png');
 }
